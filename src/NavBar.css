@@ -1,7 +1,31 @@
 .navbar {
- 
-  background-size: 100% 75px
+  background: transparent;
+}
 
+.active {
+  background-color: transparent !important;
+}
 
-  
+.nav-link:hover {
+  border-bottom: 3px solid lightblue !important;
+}
+
+.show {
+  background-color: black;
+}
+
+.collapsing {
+  background-color: white;
+}
+
+.nav-item {
+  margin: 0;
+  font-size: 32px;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media (max-width: 576px) {
+  .nav-item {
+    font-size: 50px;
+  }
 }

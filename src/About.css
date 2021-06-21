@@ -1,0 +1,16 @@
+.aboutContain {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./assets/background.jpg") no-repeat center center/cover;
+  height: 100vh;
+  padding: 17% !important;
+}
+
+/* 
+.rocket {
+  background: url("./assets/whatthe.png") no-repeat;
+  height: 500px;
+} */
+
+.green {
+  color: lightblue;
+}

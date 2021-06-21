@@ -1,10 +1,18 @@
-import About from './About'
+import About from "./About";
+import NavBar from "./NavBar";
+
 function Body() {
   return (
-     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabIndex="0" className="position-relative overflow-scroll vh-100">
-        <About count="1"></About>
-        <About count="2"></About>
-        <About count="3"></About>
+    <div
+      className="position-relative main"
+      style={{ height: "100vh", scrollBehavior: "smooth", overflowY: "scroll" }}
+    >
+      <NavBar></NavBar>
+      <About spy="about"></About>
+      <About spy="education"></About>
+      <About spy="skills"></About>
+      <About spy="projects"></About>
+      <About spy="contact"></About>
     </div>
   );
 }
