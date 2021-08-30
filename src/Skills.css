@@ -1,0 +1,34 @@
+strong {
+  color: #ff3300;
+  font-size: 24px;
+}
+
+.educationContain {
+  height: 100vh;
+
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.degree {
+  margin-top: 1em;
+}
+
+.awards {
+  font-size: 10px;
+}
+
+.educationCard {
+  padding: 0;
+  width: 75%;
+}
+
+@media (max-width: 576px) {
+  .col-5 {
+    width: 100%;
+  }
+
+  .educationCard {
+    width: 99%;
+  }
+}

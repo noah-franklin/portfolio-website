@@ -1,0 +1,50 @@
+.welcomeContain {
+  background: url("./assets/123.jpg") no-repeat center center/cover;
+  height: 100vh;
+
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.info {
+  padding-top: 70vh;
+  padding-left: 3vw;
+  width: 60vw;
+}
+
+.lightBlue {
+  color: #ff3300 !important;
+}
+
+.bi {
+  position: relative;
+  bottom: 0;
+  color: #ff3300 !important;
+}
+
+.inlineBlock {
+  display: inline-block !important;
+}
+
+.col-auto {
+  padding-left: 0;
+}
+
+a:hover {
+  color: #ff3300 !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+p {
+  margin: 0;
+}
+@media (max-width: 576px) {
+  .info {
+    padding-top: 60vh;
+    padding-left: 3vw;
+    width: 85vw;
+  }
+}

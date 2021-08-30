@@ -4,18 +4,35 @@ import "./About.css";
 function About(props) {
   return (
     <div
-      className="container-fluid bg-dark text-light p-0 aboutContain"
+      className="container-fluid text-light p-0 aboutContain"
       id={props.spy}
     >
-      <div className="rocket animate__animated animate__fadeInLeft">
-        <h5 style={{ fontSize: "80px" }}>
-          Hello :), my name is <span className="green">Noah Franklin</span>
-        </h5>
-        <p style={{ fontSize: "30px" }}>
-          I'm a recent Computer Science Graduate looking for web development
-          opportunities
-        </p>
-        <p style={{ fontSize: "15px" }}>Kingston, NY</p>
+      <div className="card text-center">
+        <div className="card-header">about</div>
+        <div className="divider"></div>
+        <div className="card-body">
+          {/* <h5 className="card-title">Special title treatment</h5> */}
+          <p className="card-text my-3 w-75 m-auto">
+            ever since my first programming class in high school i enjoyed
+            coding. constantly learning new technologies to create new and
+            useful applications is just a fun and rewarding process. my current
+            focus is on front-end development with hopes to become a full-stack
+            engineer. when i'm not
+            coding i like to go on hikes, runs, basically anything outdoors.
+          </p>
+          <div className="moreInfoItems col-auto">
+            <i class="bi bi-house-fill"></i>
+            <span
+              style={{
+                fontSize: "12px",
+                marginLeft: "1em",
+                marginBottom: "0em",
+              }}
+            >
+              Kingston, NY
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   );
