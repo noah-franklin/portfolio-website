@@ -3,7 +3,11 @@ strong {
   font-size: 24px;
 }
 
-.educationContain {
+.skills {
+  
+}
+
+.skillsContain {
   height: 100vh;
 
   display: flex !important;

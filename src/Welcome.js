@@ -9,10 +9,10 @@ function Welcome(props) {
     >
       <div className="animate__animated animate__fadeInLeft info">
         <h5 style={{ fontSize: "32px" }}>
-          <span className="lightBlue">noah franklin</span>
+          <span className="lightBlue">Noah Franklin</span>
         </h5>
         <p style={{ fontSize: "16px" }}>
-          recent computer science graduate looking for web development
+          Recent computer science graduate looking for web development
           opportunities
         </p>
 

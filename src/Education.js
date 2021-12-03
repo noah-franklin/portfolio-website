@@ -17,7 +17,7 @@ function Education(props) {
               </div>
 
               <div>computer science</div>
-              <div>suny new paltz</div>
+              <div>SUNY New Paltz</div>
               <div>class of 2021</div>
               <div className="awards">deans list: fall 2020, spring 2021</div>
             </div>
@@ -29,7 +29,7 @@ function Education(props) {
               </div>
 
               <div>computer science</div>
-              <div>suny ulster</div>
+              <div>SUNY Ulster</div>
               <div>class of 2019</div>
               <div className="awards">
                 deans list: fall 2016, spring 2017, spring 2018, fall 2018

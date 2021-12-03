@@ -13,12 +13,12 @@ function About(props) {
         <div className="card-body">
           {/* <h5 className="card-title">Special title treatment</h5> */}
           <p className="card-text my-3 w-75 m-auto">
-            ever since my first programming class in high school i enjoyed
-            coding. constantly learning new technologies to create new and
-            useful applications is just a fun and rewarding process. my current
+            Ever since my first programming class in high school I've enjoyed
+            coding. Constantly learning new technologies to create new and
+            useful applications is just a fun and rewarding process. My current
             focus is on front-end development with hopes to become a full-stack
-            engineer. when i'm not
-            coding i like to go on hikes, runs, basically anything outdoors.
+            engineer. When I'm not
+            coding I like to go on hikes, runs, basically anything outdoors.
           </p>
           <div className="moreInfoItems col-auto">
             <i class="bi bi-house-fill"></i>
