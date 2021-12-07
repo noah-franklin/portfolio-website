@@ -27,7 +27,7 @@ function Education(props) {
               <div className="degree">
                 <strong>A.S.</strong>
               </div>
-
+          
               <div>computer science</div>
               <div>SUNY Ulster</div>
               <div>class of 2019</div>

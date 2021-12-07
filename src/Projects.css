@@ -1,17 +1,14 @@
-@include media-breakpoint-down(sm) {
-  .carolSm {
-    width: 75%;
-  }
-}
-
 strong {
   color: #ff3300;
   font-size: 24px;
 }
 
-.skills {
+.projects {
 }
 
+.active {
+  background-color: #ff3300 !important;
+}
 .skillsContain {
   height: 100vh;
 
@@ -29,12 +26,12 @@ strong {
 
 .educationCard {
   padding: 0;
-  width: 75%;
+  width: 50%;
 }
 
 @media (max-width: 576px) {
-  .col-5 {
-    width: 100%;
+  .w-75 {
+    width: 100% !important;
   }
 
   .educationCard {

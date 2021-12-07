@@ -8,7 +8,7 @@ function Skills(props) {
       id={props.spy}
     >
       <div className="card text-center educationCard">
-        <div className="card-header">skills</div>
+        <div className="card-header mt-0">skills</div>
         <div className="divider"></div>
 
         <div class="container skills">
@@ -58,16 +58,16 @@ function Skills(props) {
               <span class="align-middle">Basic</span>
             </div>
             <div class="col">
-              <i class="devicon-react-original colored fs-1"></i>
+              <i class="devicon-python-plain colored fs-1"></i>
             </div>
             <div class="col">
-              <i class="devicon-bootstrap-plain colored fs-1"></i>
+              <i class="devicon-vuejs-plain colored fs-1"></i>
             </div>
             <div class="col">
-              <i class="devicon-figma-plain colored fs-1"></i>
+              <i class="devicon-nodejs-plain colored fs-1"></i>
             </div>
             <div class="col">
-              <i class="devicon-mysql-plain colored fs-1"></i>
+              <i class="devicon-java-plain colored fs-1"></i>
             </div>
           </div>
         </div>
