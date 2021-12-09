@@ -1,97 +1,62 @@
 import "./Projects.css";
 import smart from "./assets/homestack.png";
+import portfolio from "./assets/portfolio.png";
+import exercise from "./assets/exercise.png";
 function Projects(props) {
   return (
     <div
       className="container-fluid text-light p-0 skillsContain"
       id={props.spy}
     >
-      <div className="card text-center educationCard">
+      <div className="card text-center projectsCard p-0">
         <div className="card-header">projects</div>
         <div className="divider"></div>
 
-        <div class="container-fluid w-75 mt-2 projects">
-          <div
-            id="carouselExampleCaptions"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src={smart} class="d-block w-100" alt="..."></img>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Smart Library</h5>
-                  <p>
-                    Some representative placeholder content for the first slide.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="..."></img>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Portfolio Website</h5>
-                  <p>
-                    Some representative placeholder content for the second
-                    slide.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="..."></img>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Exercise Tracker</h5>
-                  <p>
-                    Some representative placeholder content for the third slide.
-                  </p>
+        <div class="container mt-0">
+          <div class="row">
+            <div class="col px-0 mb-5">
+              <div class="card bingo px-5 py-5">
+                <a
+                  href="http://cs.newpaltz.edu/p/s21-01/smart-library/"
+                  target="_blank"
+                >
+                  <img
+                    src={smart}
+                    id="smart"
+                    class="card-img-top"
+                    alt="..."
+                  ></img>
+                </a>
+                <div class="card-body">
+                  <p class="card-text">Smart Library</p>
                 </div>
               </div>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+
+            <div class="col mb-5">
+              <div class="card bingo px-5 py-5">
+                <a href="nfranklin.com">
+                  <img src={portfolio} class="card-img-top" alt="..."></img>
+                </a>
+                <div class="card-body">
+                  <p class="card-text">Portfolio Website</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card bingo px-0 py-5">
+                <a
+                  href="https://exercise-app-client-2020.herokuapp.com"
+                  target="_blank"
+                >
+                  <img src={exercise} class="card-img-top" alt="..."></img>
+                </a>
+                <div class="card-body">
+                  <p class="card-text">Exercise Tracker</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,27 @@
+.contactContain {
+  height: 100vh;
+
+  color: white;
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+/* .myForm {
+  margin-top: 25%;
+} */
+
+#contactbtn {
+  background-color: #ff3300 !important;
+  border: #ff3300 !important;
+  width: 300px;
+}
+
+@media (max-width: 576px) {
+  .contactContain {
+    margin-top: 100vh;
+  }
+
+  .please {
+    margin-top: 60% !important;
+  }
+}

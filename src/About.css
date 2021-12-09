@@ -9,8 +9,7 @@
 .card {
   background-color: black;
   margin: auto;
-
-  padding: 10em;
+  width: 1000px;
   line-height: 3em;
   align-items: center !important;
 }

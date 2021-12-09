@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import Welcome from "./Welcome";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 function Body() {
   return (
@@ -16,10 +17,8 @@ function Body() {
       <About spy="about"></About>
       <Education spy="education"></Education>
       <Skills spy="skills"></Skills>
-
       <Projects spy="projects"></Projects>
-      {/* 
-      <About spy="contact"></About> */}
+      <Contact spy="contacts"></Contact>
     </div>
   );
 }
