@@ -35,7 +35,7 @@ function Projects(props) {
 
             <div class="col mb-5">
               <div class="card bingo px-5 py-5">
-                <a href="nfranklin.com">
+                <a href="#welcome">
                   <img src={portfolio} class="card-img-top" alt="..."></img>
                 </a>
                 <div class="card-body">
