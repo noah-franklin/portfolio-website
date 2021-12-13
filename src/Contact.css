@@ -13,7 +13,7 @@
 #contactbtn {
   background-color: #ff3300 !important;
   border: #ff3300 !important;
-  width: 300px;
+  width: 200px;
 }
 
 @media (max-width: 576px) {

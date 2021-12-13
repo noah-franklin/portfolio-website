@@ -19,6 +19,7 @@ function Projects(props) {
                 <a
                   href="http://cs.newpaltz.edu/p/s21-01/smart-library/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     src={smart}
@@ -49,6 +50,7 @@ function Projects(props) {
                 <a
                   href="https://exercise-app-client-2020.herokuapp.com"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={exercise} class="card-img-top" alt="..."></img>
                 </a>

@@ -5,6 +5,7 @@ import Welcome from "./Welcome";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Footer from "./Footer"
 
 function Body() {
   return (
@@ -19,6 +20,7 @@ function Body() {
       <Skills spy="skills"></Skills>
       <Projects spy="projects"></Projects>
       <Contact spy="contacts"></Contact>
+      <Footer></Footer>
     </div>
   );
 }

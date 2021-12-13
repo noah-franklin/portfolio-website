@@ -1,0 +1,10 @@
+.footer {
+  color: white;
+  font-size: 12px;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    margin-bottom: 7em;
+  }
+}
