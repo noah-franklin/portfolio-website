@@ -1,5 +1,6 @@
 // import galaxy from "./assets/1876.jpg";
 import "./Welcome.css";
+import resume from "./assets/resume.pdf";
 
 function Welcome(props) {
   return (
@@ -12,23 +13,24 @@ function Welcome(props) {
           <span className="lightBlue">Noah Franklin</span>
         </h5>
         <p style={{ fontSize: "16px" }}>
-          Recent computer science graduate looking for web development
-          opportunities
+          Computer Science graduate looking for web development opportunities
         </p>
 
         <div className="container-fluid">
           <div className="row justify-content-start">
             <div className="moreInfoItems col-auto">
-              <i class="bi bi-file-earmark-person-fill"></i>
-              <span
-                style={{
-                  fontSize: "12px",
-                  marginLeft: "1em",
-                  marginBottom: "1em",
-                }}
-              >
-                resume.pdf
-              </span>
+              <a href={resume} download="resume.pdf">
+                <i class="bi bi-file-earmark-person-fill"></i>
+                <span
+                  style={{
+                    fontSize: "12px",
+                    marginLeft: "1em",
+                    marginBottom: "1em",
+                  }}
+                >
+                  resume.pdf
+                </span>
+              </a>
             </div>
             <div className="moreInfoItems col-auto">
               <a

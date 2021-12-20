@@ -11,16 +11,14 @@ strong {
 }
 
 #smart {
-  filter: brightness(.5)
+  filter: brightness(0.5);
 }
 
 .bingo {
   width: 300px;
-  
-
 }
 .card-img-top {
-  width: 300px;
+  width: 275px !important;
 }
 
 .degree {
@@ -36,7 +34,8 @@ strong {
   height: 200px;
 }
 
-
+.description {
+  font-size: 14px;
+}
 @media (max-width: 576px) {
-
 }

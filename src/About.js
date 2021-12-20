@@ -12,11 +12,10 @@ function About(props) {
           <p className="card-text my-3 w-75 m-auto">
             Ever since my first programming class in high school I've enjoyed
             coding. Constantly learning new technologies to create new and
-            useful applications is just a fun and rewarding process. I am
-            currently looking for a Software Engineering role. My present focus
-            is on front-end development with hopes to become a full-stack
+            useful applications is just a fun and rewarding process. My present
+            focus is on front-end development with hopes to become a full-stack
             engineer. When I'm not coding I like to go on hikes, runs, basically
-            anything outdoors.
+            anything outdoors. 
           </p>
           <div className="moreInfoItems col-auto">
             <i class="bi bi-house-fill"></i>
